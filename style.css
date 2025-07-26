@@ -25,10 +25,55 @@ body{
 .logo-da-marca{
     height: 110px;
     border-radius: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     box-sizing: border-box;
 }
 
 .arroba-do-instagram{
+    color: #f9cdd5;
+    font-family: 'Gothic A1', sans-serif;
     font-size: 20px;
+    font-weight: 700;
+    margin-top: 28px;
+}
+
+.frase-de-efeito{
+    color: #f9cdd5;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 300px;
+    width: 100%;
+}
+
+a{
+    background-color: #f9cdd5;
+    color: #7a8450;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 64px;
+    width: 98%;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover{
+    background-color: #b0b386;
+    border: 3px solid #f9cdd5;
+    color: #f9cdd5;
 }
