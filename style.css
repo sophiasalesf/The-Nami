@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #b0b386;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    /*background-color: #f9cdd5;*/
+    width: 600px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-da-marca{
+    height: 110px;
+    border-radius: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+.arroba-do-instagram{
+    font-size: 20px;
+}
