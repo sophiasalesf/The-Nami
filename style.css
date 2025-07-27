@@ -13,7 +13,6 @@ body{
 }
 
 .content{
-    /*background-color: #f9cdd5;*/
     width: 600px;
     height: 800px;
     display: flex;
@@ -76,4 +75,21 @@ a:hover{
     background-color: #b0b386;
     border: 3px solid #f9cdd5;
     color: #f9cdd5;
+}
+
+@media (max-width: 600px){
+        .content{
+        height: 100vh;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .social-links{
+        justify-content: initial;
+    }
+
+    a{
+        margin: 8px;
+        padding: 0;
+    }
 }
